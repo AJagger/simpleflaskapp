@@ -2,7 +2,7 @@ version: "3.9"
 services:
   service-1:
     container_name: flaskapp2
-    image: ajagger/jenkins$BUILD_NUMBER
+    image: ajagger/earlyflaskapp:jenkins$BUILD_NUMBER
     build: ./
     ports:
     - 5000:5000
